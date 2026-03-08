@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c6ldt06yguuxf"]
+
+[ext_resource type="Script" uid="uid://dghcy6uc1qpls" path="res://scripts/objects_base.gd" id="1_0e2du"]
+[ext_resource type="Texture2D" uid="uid://bda0au3e6p5nm" path="res://PROJETO JUMP/tiles/tree.png" id="2_j5y3u"]
+
+[node name="objects_base" type="Node3D" unique_id=1488425914]
+script = ExtResource("1_0e2du")
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=585531030]
+billboard = 1
+texture = ExtResource("2_j5y3u")

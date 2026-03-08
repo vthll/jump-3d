@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cnyul8xy56iwp"]
+
+[ext_resource type="Texture2D" uid="uid://5t8gnaxhaucj" path="res://PROJETO JUMP/Peter/hook/0001_0.png" id="1_yiyfm"]
+
+[node name="chain" type="Sprite3D" unique_id=812879463]
+texture = ExtResource("1_yiyfm")

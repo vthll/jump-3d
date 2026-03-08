@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://sgp6j2keb7rv"]
+
+[ext_resource type="Script" uid="uid://80q3eru11g58" path="res://scripts/enemy.gd" id="1_8e3ao"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8e3ao"]
+radius = 1.0
+height = 4.0
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_38ino"]
+radius = 12.564071
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_8e3ao"]
+radius = 1.0
+height = 4.0
+
+[node name="enemy" type="CharacterBody3D" unique_id=1816245284 groups=["enemies"]]
+collision_layer = 4
+collision_mask = 6
+script = ExtResource("1_8e3ao")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=198655224]
+shape = SubResource("CapsuleShape3D_8e3ao")
+
+[node name="range" type="Area3D" parent="." unique_id=977704147]
+collision_layer = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="range" unique_id=1951026598]
+visible = false
+shape = SubResource("SphereShape3D_38ino")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=865429280]
+mesh = SubResource("CapsuleMesh_8e3ao")
+
+[node name="Navigation" type="NavigationAgent3D" parent="." unique_id=63346517]
+path_desired_distance = 2.0
+target_desired_distance = 2.0
+path_max_distance = 1.01
+debug_enabled = true
+
+[connection signal="body_entered" from="range" to="." method="_on_range_body_entered"]
+[connection signal="body_exited" from="range" to="." method="_on_range_body_exited"]

@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://bh6a6ihj4h78a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ib3r"]
+albedo_color = Color(0.1254902, 0.38039216, 0, 1)
+stencil_flags = 2
+stencil_outline_thickness = 0.376
+
+[sub_resource type="BoxMesh" id="BoxMesh_2ib3r"]
+lightmap_size_hint = Vector2i(14, 21)
+material = SubResource("StandardMaterial3D_2ib3r")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tjrny"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x7f7w"]
+albedo_color = Color(0.3696841, 0.18666348, 0.011462531, 1)
+stencil_flags = 2
+stencil_outline_thickness = 0.376
+
+[sub_resource type="BoxMesh" id="BoxMesh_x7f7w"]
+lightmap_size_hint = Vector2i(14, 21)
+material = SubResource("StandardMaterial3D_x7f7w")
+
+[node name="tile_map" type="Node3D" unique_id=1424185831]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=435998787]
+mesh = SubResource("BoxMesh_2ib3r")
+
+[node name="ground" type="StaticBody3D" parent="MeshInstance3D" unique_id=159364749]
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/ground" unique_id=1613904751]
+shape = SubResource("BoxShape3D_tjrny")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1894623005]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2093449, 0, 0)
+mesh = SubResource("BoxMesh_x7f7w")
+metadata/_edit_group_ = true
+
+[node name="ground" type="StaticBody3D" parent="MeshInstance3D2" unique_id=633977704]
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D2/ground" unique_id=1147139409]
+shape = SubResource("BoxShape3D_tjrny")

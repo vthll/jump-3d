@@ -1,0 +1,145 @@
+[gd_scene format=3 uid="uid://bj8c6f66co6ih"]
+
+[ext_resource type="Texture2D" uid="uid://cwasgqg7hi8v4" path="res://PROJETO JUMP/mira jump/0001_0.png" id="1_ic2wk"]
+[ext_resource type="Script" uid="uid://dafwx6m66brbe" path="res://scripts/cursor.gd" id="1_ihw7p"]
+[ext_resource type="Texture2D" uid="uid://cxlburunj0a4p" path="res://PROJETO JUMP/mira jump/0002_6.png" id="2_ihw7p"]
+[ext_resource type="Texture2D" uid="uid://cntfclh1ovfy8" path="res://PROJETO JUMP/mira jump/0003_7.png" id="3_ccg8r"]
+[ext_resource type="Texture2D" uid="uid://cu8thbq8ugv1o" path="res://PROJETO JUMP/mira jump/0004_7.png" id="4_8qhbm"]
+[ext_resource type="Texture2D" uid="uid://br4a0xquraa3u" path="res://PROJETO JUMP/mira jump/0005_6.png" id="5_w3ha3"]
+[ext_resource type="Texture2D" uid="uid://8q3f2p603q3r" path="res://PROJETO JUMP/mira jump/0006_7.png" id="6_wtw53"]
+[ext_resource type="Texture2D" uid="uid://cw6b51qsmrjsa" path="res://PROJETO JUMP/mira jump/0007_7.png" id="7_jrn0d"]
+[ext_resource type="Texture2D" uid="uid://dt27fkfbsysfg" path="res://PROJETO JUMP/mira jump/0008_6.png" id="8_xsu4d"]
+[ext_resource type="Texture2D" uid="uid://drewyiolpksp7" path="res://PROJETO JUMP/mira jump/0009_7.png" id="9_o24aw"]
+[ext_resource type="Texture2D" uid="uid://b46fj1sulpgq" path="res://PROJETO JUMP/mira jump/0010_7.png" id="10_5y5xs"]
+[ext_resource type="Texture2D" uid="uid://c8akjl8cj66j0" path="res://PROJETO JUMP/mira jump/0011_6.png" id="11_67t5v"]
+[ext_resource type="Texture2D" uid="uid://bam2n1eh03pb0" path="res://PROJETO JUMP/mira jump/0012_7.png" id="12_0ir83"]
+[ext_resource type="Texture2D" uid="uid://dwc2ppc1q8l2f" path="res://PROJETO JUMP/mira jump/0013_7.png" id="13_cl6pv"]
+[ext_resource type="Texture2D" uid="uid://bajdyxgbmy6d6" path="res://PROJETO JUMP/mira jump/0014_6.png" id="14_wwgr0"]
+[ext_resource type="Texture2D" uid="uid://bp8i5ako433sb" path="res://PROJETO JUMP/mira jump/0015_7.png" id="15_i7b4d"]
+[ext_resource type="Texture2D" uid="uid://cq3eu1c11hfcb" path="res://PROJETO JUMP/mira jump/0016_7.png" id="16_gb871"]
+[ext_resource type="Texture2D" uid="uid://d0wmy8dkdcge5" path="res://PROJETO JUMP/mira jump/0017_6.png" id="17_xm7gu"]
+[ext_resource type="Texture2D" uid="uid://r0fc2ifvk4gk" path="res://PROJETO JUMP/mira jump/0018_7.png" id="18_nwf8l"]
+[ext_resource type="Texture2D" uid="uid://ddmlp3wwekkq" path="res://PROJETO JUMP/mira jump/0019_7.png" id="19_go246"]
+[ext_resource type="Texture2D" uid="uid://duhulw1gasu7v" path="res://PROJETO JUMP/mira jump/0020_6.png" id="20_svfgq"]
+[ext_resource type="Texture2D" uid="uid://dticlufj2lum4" path="res://PROJETO JUMP/mira jump/0021_7.png" id="21_2fmhl"]
+[ext_resource type="Texture2D" uid="uid://cek7lbngm4js0" path="res://PROJETO JUMP/mira jump/0022_7.png" id="22_swp2n"]
+[ext_resource type="Texture2D" uid="uid://dtlmln7xdbkvn" path="res://PROJETO JUMP/mira jump/0023_6.png" id="23_55jrf"]
+[ext_resource type="Texture2D" uid="uid://b3ploqy03x40x" path="res://PROJETO JUMP/mira jump/0024_7.png" id="24_frwfu"]
+[ext_resource type="Texture2D" uid="uid://blip1hj4s61g1" path="res://PROJETO JUMP/mira jump/0025_7.png" id="25_7sph0"]
+[ext_resource type="Texture2D" uid="uid://d3suyunmt16rv" path="res://PROJETO JUMP/mira jump/0026_6.png" id="26_2kajp"]
+[ext_resource type="Texture2D" uid="uid://bryuw8262eowy" path="res://PROJETO JUMP/mira jump/0027_7.png" id="27_ulqwr"]
+[ext_resource type="Texture2D" uid="uid://c7wcfyw82xc2j" path="res://PROJETO JUMP/mira jump/0028_7.png" id="28_sg3hv"]
+[ext_resource type="Texture2D" uid="uid://b5546fq2ig6nu" path="res://PROJETO JUMP/mira jump/0029_6.png" id="29_8r2fi"]
+[ext_resource type="Texture2D" uid="uid://bp1r5suh5gl" path="res://PROJETO JUMP/mira jump/0030_7.png" id="30_7s36g"]
+[ext_resource type="Texture2D" uid="uid://dvboje54rkcny" path="res://PROJETO JUMP/mira jump/0031_7.png" id="31_hwau2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rh41y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ic2wk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ihw7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ccg8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8qhbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_w3ha3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_wtw53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jrn0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xsu4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_o24aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5y5xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_67t5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0ir83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_cl6pv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_wwgr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_i7b4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_gb871")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_xm7gu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_nwf8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_go246")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_svfgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_2fmhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_swp2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_55jrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_frwfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_7sph0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2kajp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ulqwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_sg3hv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8r2fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_7s36g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_hwau2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="cursor" type="Node2D" unique_id=2106732382]
+script = ExtResource("1_ihw7p")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=18092217]
+scale = Vector2(0.15, 0.15)
+sprite_frames = SubResource("SpriteFrames_rh41y")
+autoplay = "default"
+frame = 30
+frame_progress = 0.6918791

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bnbcufis5obdk"]
+
+[ext_resource type="Script" uid="uid://dbeodxbprfmed" path="res://scripts/cursor_3d.gd" id="1_53qft"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_53qft"]
+
+[node name="cursor3d" type="Area3D" unique_id=759417554]
+collision_layer = 0
+collision_mask = 4
+script = ExtResource("1_53qft")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=900163707]
+shape = SubResource("BoxShape3D_53qft")
+debug_color = Color(0.9882353, 0, 0.3137255, 1)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

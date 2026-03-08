@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcjf8oy08kixm"
+path="res://.godot/imported/freesound_community-chain-6073 (mp3cut.net) (1).mp3-4eb0bc02a9fdaa67c83559d45658e051.mp3str"
+
+[deps]
+
+source_file="res://PROJETO JUMP/sounds/sound_effect/freesound_community-chain-6073 (mp3cut.net) (1).mp3"
+dest_files=["res://.godot/imported/freesound_community-chain-6073 (mp3cut.net) (1).mp3-4eb0bc02a9fdaa67c83559d45658e051.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

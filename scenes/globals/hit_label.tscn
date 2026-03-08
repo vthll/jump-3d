@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://blryrkysfhytk"]
+
+[ext_resource type="Script" uid="uid://ftn6yccar3nc" path="res://scripts/hit_label.gd" id="1_cwufx"]
+
+[node name="hit_label" type="Label3D" unique_id=2022701331]
+pixel_size = 0.08
+billboard = 1
+text = "50"
+script = ExtResource("1_cwufx")

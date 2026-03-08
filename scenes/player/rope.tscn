@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dwat2yrtsp5xf"]
+
+[ext_resource type="Script" uid="uid://clp8yxl4tpofv" path="res://scripts/rope.gd" id="1_c61eq"]
+[ext_resource type="AudioStream" uid="uid://bcjf8oy08kixm" path="res://PROJETO JUMP/sounds/sound_effect/freesound_community-chain-6073 (mp3cut.net) (1).mp3" id="2_axupt"]
+[ext_resource type="Texture2D" uid="uid://5t8gnaxhaucj" path="res://PROJETO JUMP/Peter/hook/0001_0.png" id="3_teyl1"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_axupt"]
+size = Vector2(1, 0.5)
+
+[node name="rope" type="Node3D" unique_id=26445414]
+script = ExtResource("1_c61eq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1440433868]
+transform = Transform3D(-4.371139e-08, 1, -4.371139e-08, 0, -4.371139e-08, -1, -1, -4.371139e-08, 1.9106855e-15, 0, 0, -0.50237215)
+mesh = SubResource("PlaneMesh_axupt")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1146752442]
+stream = ExtResource("2_axupt")
+volume_db = 24.0
+pitch_scale = 2.0
+autoplay = true
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=1568974481]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, -0.34746227)
+texture = ExtResource("3_teyl1")

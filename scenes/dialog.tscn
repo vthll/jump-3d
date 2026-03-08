@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://b4xoqjfn1qn6w"]
+
+[ext_resource type="Script" uid="uid://co5k2s6rvk085" path="res://scripts/dialog.gd" id="1_36pgd"]
+[ext_resource type="Script" uid="uid://hlbn5i3w8y8e" path="res://scripts/falas.gd" id="2_auqi6"]
+[ext_resource type="Script" uid="uid://chm4fb1kxxi7b" path="res://scripts/dialogo.gd" id="3_4wims"]
+[ext_resource type="Texture2D" uid="uid://cliy0jdkf772e" path="res://pls.png" id="4_auqi6"]
+
+[sub_resource type="Resource" id="Resource_auqi6"]
+script = ExtResource("2_auqi6")
+metadata/_custom_type_script = "uid://hlbn5i3w8y8e"
+
+[sub_resource type="Resource" id="Resource_b1kyf"]
+script = ExtResource("3_4wims")
+dialog = Array[ExtResource("2_auqi6")]([SubResource("Resource_auqi6"), null, null, null, null])
+metadata/_custom_type_script = "uid://chm4fb1kxxi7b"
+
+[node name="dialog" type="CanvasLayer" unique_id=1309869373]
+script = ExtResource("1_36pgd")
+dialogos = SubResource("Resource_b1kyf")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1303215827]
+offset_left = -27.0
+offset_top = 549.0
+offset_right = 1313.0
+offset_bottom = 739.0
+color = Color(0, 0, 0, 1)
+
+[node name="face" type="Sprite2D" parent="." unique_id=17421860]
+position = Vector2(101, 613)
+scale = Vector2(0.17, 0.17)
+texture = ExtResource("4_auqi6")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=838407857]
+offset_left = 371.0
+offset_top = 521.0
+offset_right = 1270.0
+offset_bottom = 652.0
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "
+ textos sobre o dialogo e teste do [wave amp=200]sistema"
+visible_characters = 3
+visible_ratio = 0.069767445
+
+[node name="Label" type="Label" parent="." unique_id=2116899824]
+modulate = Color(0.9882353, 0.37254903, 0.019607844, 1)
+offset_left = 375.0
+offset_top = 689.0
+offset_right = 456.0
+offset_bottom = 723.0
+theme_override_font_sizes/font_size = 24
+text = "Peter"

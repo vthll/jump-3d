@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crhlfempp6nwn"
+path="res://.godot/imported/freesound_community-chain-6073.mp3-b6a1356ed40c290facc2853a3453bc26.mp3str"
+
+[deps]
+
+source_file="res://PROJETO JUMP/sounds/sound_effect/freesound_community-chain-6073.mp3"
+dest_files=["res://.godot/imported/freesound_community-chain-6073.mp3-b6a1356ed40c290facc2853a3453bc26.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=240.0
+beat_count=0
+bar_beats=4

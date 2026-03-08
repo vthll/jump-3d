@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dfslghmmw68l8"
+path="res://.godot/imported/walk.ogg-b25391c5e9c36c4337f3bd070648df67.oggvorbisstr"
+
+[deps]
+
+source_file="res://PROJETO JUMP/sounds/sound_effect/walk.ogg"
+dest_files=["res://.godot/imported/walk.ogg-b25391c5e9c36c4337f3bd070648df67.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7xsf52iqcxvg"
+path="res://.godot/imported/footsteps-in-snow-335510.mp3-81f1711f77bc9e75728fee61702705dd.mp3str"
+
+[deps]
+
+source_file="res://PROJETO JUMP/sounds/sound_effect/footsteps-in-snow-335510.mp3"
+dest_files=["res://.godot/imported/footsteps-in-snow-335510.mp3-81f1711f77bc9e75728fee61702705dd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
